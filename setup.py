@@ -33,7 +33,7 @@ if sys.argv[:2] == ["setup.py", "bdist_wheel"]:
 
 try:
     setup(
-        name = "django-forms-builder",
+        name = "django-forms-builder-08eins-custom",
         version = __import__("forms_builder").__version__,
         author = "Stephen McDonald",
         author_email = "stephen.mc@gmail.com",
